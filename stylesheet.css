@@ -1,0 +1,192 @@
+#navBar{
+    width: 1513px;
+background-color: #FFFFFF;
+display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+grid-template-areas: 
+  "area-1 area-2 area-3";
+   
+}
+
+.image{
+    grid-area: area-1;
+  display: inline-flex;
+  grid-area: area-1;
+  padding: 20px;
+  align-items: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+    
+}
+.menu{
+    display: inline-flex;
+     grid-area: area-2;
+     gap:80px;
+    align-items: center;
+}
+.book{
+    gap: 40px;
+   display: inline-flex;
+    grid-area: area-3;
+    align-items: center;
+    margin: auto;
+    }
+#frame1{
+width: 1513px;
+height: 1611px;
+gap: 0px;
+opacity: 0px;
+display: grid;
+grid-template-rows: 1fr 1fr;
+}
+
+.row1{
+grid-row: 1;
+display: grid;
+grid-template-columns: 1fr 1fr;
+background: #DDE0C7;
+
+
+}
+
+.welcome
+{
+grid-column: 1;
+background: #DDE0C7;
+width: 746px;
+height: 738px;
+gap: 0px;
+opacity: 0px;
+align-items: center;
+}
+
+.paragraph{
+width: 539px;
+height: 393px;
+margin-top: 110px;
+margin-left: 119.95px;
+gap: 32px;
+opacity: 0px;
+display:block;
+
+}
+.p1{
+   
+ width: 240px;
+height: 25px;
+
+opacity: 0px;
+font-family: Circular Std;
+font-size: 20px;
+font-weight: 500;
+line-height: 25.3px;
+letter-spacing: 0.05em;
+text-align: left;
+color: #717C26;
+}
+.p2{
+    
+width:539px;
+height:244px;
+padding: 0px 0px 4px 0px;
+opacity: 0px;
+font-family: Circular Std;
+font-size: 60px;
+font-weight: 500;
+line-height: 80px;
+letter-spacing: -0.02em;
+text-align: left;
+
+
+}
+.p3{
+width: 378px;
+height:80px;
+gap: 24px;
+opacity: 0px;
+display: inline-flex;
+align-items: center;
+
+
+}
+.p3a{
+  width: 181px;
+height: 60px;
+gap: 0px;
+opacity: 0px;
+background: #717C26;
+text-align: center;
+
+
+}
+.p3b{
+width: 173px;
+height: 60px;
+gap: 0px;
+opacity: 0px;
+border: 1.5px solid #717C26;
+
+}
+.heading2{
+    width: 620px;
+height: 176px;
+gap: 0px;
+opacity: 0px;
+font-family: Circular Std;
+font-size: 64px;
+font-weight: 500;
+line-height: 88px;
+letter-spacing: -0.01em;
+text-align: left;
+color: #2D2E2E;
+
+}
+.pwelcome{
+    width: 556px;
+height: 288px;
+gap: 0px;
+opacity: 0px;
+color: #2D2E2E;
+
+font-family: Circular Std;
+font-size: 16px;
+font-weight: 450;
+line-height: 32px;
+text-align: left;
+
+}
+.image1{
+grid-column: 2;
+    
+}
+.booking{
+    position: absolute;
+    width: 987px;
+    height:107px;
+    margin-top: 58%;
+    margin-left: 25%;
+    padding: 32px 40px 32px 40px;
+    gap: 24px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    
+}
+.row2{
+    grid-row: 2;
+    background: #F6F6EF;
+    display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+.image2{
+grid-column: 1;
+align-items: center;
+}
+.yourStay{
+    grid-column: 2;
+    
+}
+
+
