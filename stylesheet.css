@@ -187,21 +187,7 @@ border: 1px 0px 0px 0px;
 opacity: 0px;
 border: 1px solid #919EAB52 ;
 }
-.text{
-    width: 71px;
-height: 24px;
-top: 13px;
-left: 14px;
-gap: 0px;
-opacity: 0px;
-font-family: Circular Std;
-font-size: 14px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: -0.02em;
-text-align: left;
 
-}
 
 .button{
     width: 227px;
@@ -209,8 +195,10 @@ text-align: left;
     border-radius: 4px 4px 4px 4px;
     border: 1px 1px 1px 1px;
     background: #717C26;
+    align-items: center;
     
 }
+
 .row2{
     grid-row: 2;
     background: #F6F6EF;
